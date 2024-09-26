@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>task5-js</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header class="w-90  m-auto d-flex flex-column text-center">
+        <div class="mainContain d-flex align-items-center justify-content-center my-3">
+            <div class="image w-80px h-70px me-3">
+                <img class="h-100 w-100" src="images/logo.png" alt="logo">
+            </div>
+            <div class="title">
+                <h1 class="hff sc mt-4 display-3">Weather</h1>
+            </div>
+        </div>
+        <div class="mainForm my-4">
+            <form class="d-flex flex-column flex-md-row ms-5" id="mainform">
+                <input id="insert" class="rounded-pill w-90 py-2 form-control me-2 bg-transparent" type="text" placeholder="Choose a city">
+                <button class="btn mt-3 mt-md-1 px-5 m-auto c-b" type="submit">Find</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="w-85  m-auto d-flex justify-content-between align-items-center mt-5 px-3 flex-column flex-md-row">
+        <section class="mainDay d-none p-4 w-90 me-md-5 bg-f  rounded-3" id="mainDay"> 
+        </section>
+        
+        <section class="Next d-none w-90 mt-5 mt-md-0 rounded-3 bg-f" id="Next">
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

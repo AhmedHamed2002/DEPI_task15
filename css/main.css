@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    max-height: 100%;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: 100% 100% ;
+    padding-block: 40px;
+}
+
+.c-o{
+    color: rgb(227, 150, 8);
+}
+
+.c-b{
+color: rgb(9, 68, 151);
+border: 2px solid rgb(9, 68, 151);
+}
+.w-90{
+    width:90% ;
+}
+
+.w-85{
+    width:85% ;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-45{
+    width: 45%;
+}
+
+.w-80px{
+    width: 80px;
+}
+
+.h-70px{
+    height: 70px;
+}
+
+.w-40px{
+    width: 40px;
+}
+
+.h-40px{
+    height: 40px;
+}
+
+.hff{
+    font-family: "Sofadi One", system-ui;;
+}
+
+.sc{
+    background:linear-gradient(to right , rgb(74, 129, 231) , rgb(222, 168, 76)); 
+    background-clip: text;
+    color: transparent;
+}
+
+.bg-f{
+    background-color: rgba(40, 38, 38, 0.145);
+    backdrop-filter: blur(5px);
+}
+
+.btn:hover{
+    color: aqua !important;
+    border:2px solid aqua !important;
+}
+
+input{
+    caret-color: rgb(12, 112, 162);
+    color: rgb(9, 68, 151) !important;
+    padding-left: 40px !important;
+    font-size: 20px !important;
+    box-shadow: none !important;
+
+    &:focus{
+        outline: 3px solid rgb(13, 94, 206) !important;
+        border: none !important;
+    }
+    
+    &::placeholder{
+        color: rgba(255, 166, 0, 0.479) !important;
+        word-spacing: 2px;
+        font-size: 20px;
+    }
+}
+
+.mainDay, .Next
+{
+    transition: 1.4s;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+        background-color: rgba(50, 49, 49, 0.31);
+        backdrop-filter: blur(10px);
+    }
+}
